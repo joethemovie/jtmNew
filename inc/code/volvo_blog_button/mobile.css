@@ -1,0 +1,79 @@
+body {
+  font-family: Helvetica, sans-serif;
+  color: #ffffff;
+  width: 330px;
+}
+h1 {
+  color: white;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+  font-size: 40px;
+}
+#volvoContainer {
+  background-image: none;
+  background-size: 0;
+  width: 330px;
+  height: 650px;
+  background-color: #ffffff;
+  margin: auto;
+}
+.contentContainer {
+  height: 650px;
+  padding: 0px;
+  background-color: #ffffff;
+  width: 100%;
+  margin: auto;
+}
+.contentContainer h1{
+  padding: 20px 0 0 0;
+}
+.links a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  background-color: #033057;
+  padding: 15px;
+  width: 200px;
+  margin: 0;
+  text-align: center;
+  line-height: 1;
+}
+.links a:hover {
+  background-color: #042644;
+}
+.box {
+  display: inline-block;
+  list-style: none;
+  margin: auto;
+}
+.box img {
+  width: 90px;
+}
+p {
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+  color: #000000;
+}
+.links p{
+  padding-top: 10px;
+}
+#headingP {
+  padding: 0 10px;
+  text-align: left;
+  width: 85%;
+}
+#launchHeading {
+  padding-top: 30px;
+  font-size: 25px;
+  text-align: left;
+  color: #000000;
+}
+#box-container{
+  width: 100%;
+  margin: auto;
+}
+.wrap{
+  width: 90%;
+  margin: 0 -30px;;
+}
+#swipebox-overlay {
+  width: 400px;
+}

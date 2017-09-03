@@ -1,0 +1,110 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:200,400,600,700,800|Permanent+Marker|Anonymous Pro')
+.headings
+  font-family: 'Permanent Marker'
+
+// Document Styles
+html, body
+  margin: 0
+  padding: 0
+  border: 0
+#fullDoc
+  margin: 0
+  padding: 80px 0 0 0
+  border: 0
+  height: 100vh
+  background-image: url(../inc/paperBg.png)
+  background-size: 200px 200px
+  background-repeat: repeat
+  background-color: #fafafa
+  font-family: 'Open Sans', sans-serif
+  transition: background 1s linear, padding 0.5s
+#return
+  font-family: 'Permanent Marker'
+  font-size: 25px
+  font-weight: 800
+  position: static
+  cursor: pointer
+  transition: color 0.6s
+  text-align: right
+  padding: 0
+  margin: -70px 0 0 0
+  border: 0
+#return:hover
+  cursor: pointer
+  color: rgb(31, 118, 145)
+  transition: color 0.6s
+#aboutLink
+  text-align: center
+  margin: 50px 0 0px 0
+  font-size: 16px
+  letter-spacing: 1
+.dnd
+  line-height: 1
+  margin: 0
+  padding: 0
+  border: 0
+  text-align: center
+.mediaHead
+  display: block
+  padding: 0
+  margin: -16px 0 25px 0
+  top: 0px
+  left: 0
+  text-align: center
+  font-size: 22px
+#main
+  background-color: rgba(255,255,255,1)
+  max-width: 600px
+  height: 380px
+  margin: 0px auto 0 auto
+  padding: 80px 20px 0px 20px
+  border-radius: 15px
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.06)
+  transition: background-color 0.5s, box-shadow 0.5s
+#jrMain
+  font-size: 60px
+#jrSub
+  font-size: 34px
+a
+  font-family: 'Open Sans', sans-serif
+  letter-spacing: 1.5px
+  text-decoration: none
+  color: #586570
+  border-bottom: 0px solid rgba(29, 183, 232,0.6)
+  transition: color 0.1s, border-bottom 0.1s
+a:hover
+  border-bottom: 2px solid rgba(29, 183, 232,0.6)
+  color: rgba(29, 183, 232,0.6)
+  transition: color 0.2s, border-bottom 0.2s
+#mainMenu
+  margin: 3em 0
+  padding: 0
+  border: 0
+  text-align: center
+  list-style: none
+  li
+    padding: 8px 0
+    margin: 0
+    border: 0
+    font-size: 18px
+    font-weight: 500
+.media
+  width: 150px
+  height: 150px
+  text-align: center
+.contentContainer
+  text-align: center
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+    li
+      display: inline
+@media(max-width: 641px)
+  #fullDoc
+    transitionpadding 0.5s
+  #main
+    background-color: rgba(255,255,255,0)
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.0)
+    transition: background-color 0.5s, box-shadow 0.5s

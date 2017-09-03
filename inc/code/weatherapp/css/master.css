@@ -1,0 +1,40 @@
+.leHeading {
+  font-family: 'Archivo Black', sans-serif;
+  font-size:50px;
+  text-shadow: 2px 2px 1px #151C1E;
+}
+.weatherArea {
+  margin: 0 auto;
+  float: center;
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+}
+h1{
+  font-size: 25px;
+}
+body{
+  background-color: rgb(0, 137, 204);
+  color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  width: 100%;
+}
+
+#celciusSection {
+  margin: auto;
+  cursor: pointer;
+}
+#fahrenheitSection {
+  margin: auto;
+  cursor: pointer;
+}
+#celciusSection:hover {
+  color: #9dd4e8;
+}
+#fahrenheitSection:hover {
+  color: #9dd4e8;
+}
+.info {
+  font-size: 16px;
+}
