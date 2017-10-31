@@ -7,11 +7,11 @@ html, body {
   padding: 0;
   border: 0; }
 
-#fullDoc {
+html {
   margin: 0;
   padding: 80px 0 0 0;
   border: 0;
-  height: 100vh;
+  height: 85vh;
   background-image: url(../inc/paperBg.png);
   background-size: 200px 200px;
   background-repeat: repeat;
@@ -19,8 +19,19 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   transition: background 1s linear, padding 0.5s; }
 
+#overlayFade {
+  margin: -80px 0 0 0;
+  padding: 0 0 80px 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  z-index: 10;
+  position: absolute;
+  animation-name: slidOut;
+  animation-duration: 2s; }
+
 #return {
-  font-family: 'Permanent Marker';
+  font-family: 'Permanent Marker', sans-serif;
   font-size: 25px;
   font-weight: 800;
   position: static;
@@ -114,8 +125,127 @@ a:hover {
     .contentContainer ul li {
       display: inline; }
 
+#xc90Content {
+  width: 900px;
+  height: 600px; }
+
+#s90Images {
+  width: 900px;
+  height: 700px; }
+
+#elevenOff {
+  width: 700px;
+  height: 700px; }
+
+#aboutJoe {
+  display: flex;
+  text-align: left;
+  width: 70%;
+  margin: 0 auto; }
+
+.joeContainer1 {
+  display: inline;
+  width: 30%;
+  padding: 0px;
+  margin: 0;
+  padding: 0; }
+  .joeContainer1 img {
+    width: 300px;
+    margin: 0 0 0 0;
+    text-align: right;
+    opacity: 100%; }
+
+.joeContainer2 {
+  display: inline;
+  width: 60%;
+  padding: 0px;
+  margin: 0 0 0 70px;
+  background: rgba(250, 250, 250, 0.9); }
+  .joeContainer2 h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1; }
+  .joeContainer2 p {
+    margin: 0px;
+    padding: 20px 0 0 0;
+    width: 100%; }
+
+#revert {
+  text-align: center; }
+
+#social {
+  width: 300px;
+  list-style: none;
+  display: block;
+  border: 0;
+  margin: 3px 0 0 0;
+  padding: 0;
+  text-align: right; }
+  #social li {
+    border: 0;
+    margin: 0 0 0 0;
+    padding: 0px 0px 0 0px;
+    display: inline;
+    list-style: none; }
+  #social img {
+    width: 30px; }
+
+#aboutGraph {
+  position: inherit;
+  width: 500px;
+  height: 70%;
+  margin: auto auto;
+  text-align: left;
+  padding: 50px 0; }
+
+.imageLoader img {
+  width: 1px;
+  height: 1px;
+  position: absolute; }
+
+@keyframes slidOut {
+  0% {
+    top: 0; }
+  70% {
+    top: 0; }
+  85% {
+    top: -800px; }
+  100% {
+    top: -800px; } }
+
+.thumbnails {
+  text-decoration: none;
+  border-bottom: none; }
+
+.thumbnails:hover {
+  text-decoration: none;
+  border-bottom: none; }
+
 @media (max-width: 641px) {
+  #bioImg {
+    display: none; }
+  html {
+    padding: 20px 0 0 0; }
+  #fullDoc {
+    transition: padding 0.5s; }
+  #return {
+    margin: 0px 0 0 0; }
   #main {
     background-color: rgba(255, 255, 255, 0);
     box-shadow: 0px 1px 3px transparent;
-    transition: background-color 0.5s, box-shadow 0.5s; } }
+    transition: background-color 0.5s, box-shadow 0.5s;
+    padding: 0px 20px 0px 20px;
+    margin: 0; }
+  #aboutGraph {
+    position: inherit;
+    width: 300px;
+    height: 70%;
+    margin: auto auto;
+    text-align: left;
+    padding: 20px 0; }
+  #aboutLink {
+    margin: 170px 0 0 0; }
+  .videoContent {
+    width: 300px;
+    height: 169px; } }
